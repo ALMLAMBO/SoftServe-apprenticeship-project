@@ -10,9 +10,10 @@ body {
 }
 
 .sidebar {
-    width: 22%;
+    width: 200px;
     height: 100%;
     background-color: rgb(199, 199, 199);
+    position: fixed;
 }
 
 .profile-image {
@@ -32,13 +33,11 @@ body {
 }
 
 .main {
-    width: auto;
+    width: calc(100% - 200px);
     height: 100%;
     background-color: rgb(227, 227, 226);
     display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 15%;
+    float: right;
 }
 
 .header-container {
@@ -91,19 +90,21 @@ body {
     margin: 47px 0 37px 32px;
 }
 
-.notes {
-
-}
-
 .notes-icon {
-    width: 13px;
-    margin: 60px 22px 16px 31px;
+    padding: 10px 0 0 20px;
+    width: 20px;
+    height: 20px;
 }
 
 .notes-icon-text {
-    display: inline;
+    margin: 0;
+    text-decoration: none;
 }
 
 .sign-out {
-    margin: 130px 0 60px 31px;
+    margin: 130px 0 20px 0;
+}
+
+.user-navigation {
+    text-align: left;
 }
