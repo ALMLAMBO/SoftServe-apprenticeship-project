@@ -13,16 +13,26 @@ body {
     width: 22%;
     height: 100%;
     background-color: rgb(199, 199, 199);
-    text-align: center;
 }
 
 .profile-image {
-    border-radius: 50%;
+    display: inline;
+    margin: 0 auto 0 -25px;
+    height: 100%;
+    width: auto;
+}
+
+.profile-image-circle-container {
     width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid #000000;
 }
 
 .main {
-    width: fit-content;
+    width: auto;
     height: 100%;
     background-color: rgb(227, 227, 226);
     display: inline-block;
@@ -32,18 +42,42 @@ body {
 }
 
 .header-container {
-    width: 75%;
-    margin: 58px 0 0 10%;
+    width: 78%;
+    height: 313px;
+    margin: 58px 0 0 70px;
     background-color: #ffffff;
-    padding: 20px 0 10px 0;
+    padding: 20px 0 50px 0;
     border-radius: 30px;
     text-align: center;
 }
 
 .header-subtext {
-    margin: 0 20px 0 20px;
+    margin: 0 41px;
 }
 
 .main-heading {
     font-size: 62px;
+}
+
+.main-content {
+    margin: 58px 0 0 70px;
+}
+
+.text-input-field {
+    width: 430px;
+    height: 45px;
+    border-radius: 6px;
+    margin: 9px 0;
+    padding: 0;
+    border: 1px solid rgb(21, 127, 251);
+}
+
+.submit-btn {
+    width: 114px;
+    height: 46px;
+    border-radius: 3px;
+    background-color: rgb(21, 127, 251);
+    border: 1px solid rgb(21, 127, 251);
+    color: rgb(236, 245, 255);
+    outline: 0;
 }
