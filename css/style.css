@@ -42,7 +42,7 @@ body {
 }
 
 .header-container {
-    width: 78%;
+    width: 83%;
     height: 313px;
     margin: 58px 0 0 70px;
     background-color: #ffffff;
@@ -80,4 +80,8 @@ body {
     border: 1px solid rgb(21, 127, 251);
     color: rgb(236, 245, 255);
     outline: 0;
+}
+
+.items-list {
+    display: inline-block;
 }
